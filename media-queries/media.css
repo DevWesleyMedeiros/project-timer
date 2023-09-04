@@ -1,11 +1,12 @@
 @charset: "UTF-8";
 
-@media screen and (min-width: 100px) and (max-width: 844px){
+@media screen and (max-width: 844px){
     .container-image-clock {
         flex-direction: column;
     }
     .container-image-clock h1 {
         text-align: center;
+        padding: 5px;
     }
     .container-countDays .time {
         border: none;
@@ -18,4 +19,3 @@
         height: 50px;
     }
 }
-

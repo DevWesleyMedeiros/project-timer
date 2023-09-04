@@ -27,6 +27,7 @@ html, body {
     text-align: justify;
 }
 .container-image-clock {
+    max-width: 1200px;
     width: 50vw;
     height: 20vh;
     display: flex;
@@ -45,7 +46,6 @@ html, body {
     padding: 2rem;
     box-shadow: 10px 10px 30px 30px rgba(136, 77, 150, 0.726);
     position: relative;
-    background-color: rgb(196, 151, 66);
 }
 .container-countDays .time {
     display: flex;
@@ -60,7 +60,6 @@ html, body {
     margin-right: 1.5rem;
     margin-top: -10px;
     position: relative;
-    background-color: rgb(232, 232, 9);
 }
 .buttons {
     width: 25vw;
@@ -73,7 +72,6 @@ html, body {
     text-align: center;
     position: absolute;
     bottom: 0%;
-    background-color: rgb(232, 232, 9);
     
 }
 .buttons button {
