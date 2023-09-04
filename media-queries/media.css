@@ -1,0 +1,21 @@
+@charset: "UTF-8";
+
+@media screen and (min-width: 100px) and (max-width: 844px){
+    .container-image-clock {
+        flex-direction: column;
+    }
+    .container-image-clock h1 {
+        text-align: center;
+    }
+    .container-countDays .time {
+        border: none;
+    }
+    .container-countDays {
+        width: 100%;
+    }
+    .buttons button {
+        width: 150px;
+        height: 50px;
+    }
+}
+
